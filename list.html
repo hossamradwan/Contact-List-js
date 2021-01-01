@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <div id = "texts">
+        <p id = "name">  Name</p>
+        <p id = "email">Email</p>
+        <p id = "phone">Phone</p>
+    </div>
+    <form  action="">
+        <input id ="nameBox" type="text">
+        <input id ="emailBox" type="text">
+        <input id ="phoneBox" type="text" name="" >
+    </form>
+    <div>
+        <p class = "warning" id = "Invalid">Email or phone invalid. Email must end with "@gmail.com". 
+            Phone must be 11 digits of numbers.</p>
+    </div>
+    <input id = "submitButton" type="submit" value="Add Contact">
+    <div>
+        <table id = "dataTable">
+            <tr>
+                <th>Name</th>
+                <th id = "emailArea">Email</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>     
+        </table>
+    </div>
+    <script src="list.js"></script>
+</body>
+</html>

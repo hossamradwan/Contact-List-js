@@ -1,0 +1,86 @@
+body {
+    background-image: url("img.jpg");
+}
+#texts{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#name{
+    display: inline;
+    padding-left: 25%;
+}
+#email
+{
+    display: inline;
+    padding-left: 200px;
+}
+#phone{
+    display: inline;
+    padding-left: 250px;
+}
+#nameBox{
+    width: 120px;
+    margin-right: 50px;
+    margin-left: 335px;
+    
+}
+#emailBox{
+    width: 225px;
+    margin-left: 60px;
+}
+#phoneBox{
+    width: 95px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+#submitButton{
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 875px;
+    margin-top: 30px;
+}
+table ,th, td{
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 350px;
+}
+th{
+    color:black;
+    background-color:  green;
+    text-align: left;
+    width : 100px;
+}
+td{
+    color: black;
+    background-color: lightgreen;
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 10px;    
+}
+#emailArea{
+    width: 250px;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.removeButton{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.editButton{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 5px;  
+}
+#Invalid{
+   
+    color: red;
+    display: none;
+    margin-left: 25%;
+}
